@@ -10,3 +10,13 @@ document.getElementById('output').innerText = 'Hello, World!';
 
 // Console Log
 console.log('Hello, World!');
+
+
+// using the args 
+
+var createHelloWorld = function() {
+    
+    return function(...args) {
+          return "Hello World";
+    }
+};
